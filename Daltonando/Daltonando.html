@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DALTONANDO</title>
+    <link rel="stylesheet" type="text/css" href="../../projetos/Daltonando/style_css/style.css"/>   
+</head>
+
+<style>
+    body{
+        background-color: rgb(0, 38, 255);
+    }
+
+    header{
+        background-color: white;
+    }
+    span{
+        /*background-color: yellow;*/
+        font-size: 60px;
+        font-family: 'DejaVu Sans Mono', monospace;
+        border: 2px solid white;
+    }
+    #homeMenu{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .botão{
+        display: inline-block;
+       /* margin: 1em;*/ 
+        padding: 50px;
+        text-decoration: none;
+        background: rgb(235, 16, 16);
+        color: white;
+        border: 0;
+        text-shadow: 2px 2px 2px rgba(0,0,0,0,5);
+        margin-left: 190px;
+        margin-top: 10px;
+        border-radius: 20px;
+        float: left;
+    }
+    #span1{
+        float: left;
+    }
+    #esquerda{  
+        width: 50px;
+        height: 50px;
+        margin-top: 50px;
+        margin-left: 0px;
+        margin-right: 50px;
+        float: right;
+    }
+   
+    #direita{
+        width: 50px;
+        height: 50px;
+        margin-top: 50px;
+        margin-left: 0px;
+        margin-right: 70px;
+        float: right;
+    }
+
+    
+</style>
+<body>
+    
+    <div class="container">
+       <div id="span1">
+           <h2><span style="color: #000;" id="P">0</span></h2>
+        </div>
+        <div class="seccao2">
+           <a type="buton" style="color: white;" href="index.html" class="botão"><strong id="homeMenu">HOME</strong></a>
+        </div>
+    </div>
+
+    <div>
+        <img id="direita" src="../Daltonando/imagem/direita.png">
+    </div>
+    
+    <div>
+        <img id="esquerda" src="../Daltonando/imagem/esquerda.png">
+    </div>
+    
+
+    <!---heiht 560 width 400-->
+    <div style="width: 1000px; height:800px; position:relative; margin:0 auto; border: solid; background-color: white;">
+        <canvas width="1000" height="800"></canvas>
+    </div>
+
+
+    
+
+    
+    <script src="cod_javascript/objeto.js"></script>
+    <script src="cod_javascript/script.js"></script>
+    <script src="cod_javascript/colisao.js"></script>
+</body>
+</html>
